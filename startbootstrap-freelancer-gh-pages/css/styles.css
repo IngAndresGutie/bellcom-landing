@@ -101,7 +101,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: 'Poppins' !important;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -134,9 +134,9 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -296,7 +296,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: var(--bs-font-monospace);
+  font-family: 'Poppins';
   font-size: 1em;
 }
 
@@ -389,7 +389,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: 'Poppins';
   font-size: inherit;
   line-height: inherit;
 }
@@ -2887,7 +2887,7 @@ textarea.form-control.is-invalid {
 .btn {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
-  --bs-btn-font-family: ;
+  --bs-btn-font-family: 'Poppins';
   --bs-btn-font-size: 1rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
@@ -5735,7 +5735,7 @@ fieldset:disabled .btn {
   display: block;
   padding: var(--bs-tooltip-arrow-height);
   margin: var(--bs-tooltip-margin);
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5857,7 +5857,7 @@ fieldset:disabled .btn {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -8237,7 +8237,7 @@ fieldset:disabled .btn {
 }
 
 .font-monospace {
-  font-family: var(--bs-font-monospace) !important;
+  font-family: 'Poppins' !important;
 }
 
 .fs-1 {
@@ -11179,6 +11179,10 @@ html {
   padding: 3rem 0;
 }
 
+.page-about {
+  padding: 3rem 0;
+}
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
@@ -11333,6 +11337,36 @@ html {
   font-weight: 600;
 }
 
+.title-list-about {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.title-list-about-white {
+  color: #fff;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.title-list-about-red {
+  color: #8d0800;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .title-list-company {
+    margin-top: 30px;
+  }
+}
+
 .item-list-company {
   color: #000;
   font-size: 25px;
@@ -11363,9 +11397,9 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
 }
 #mainNav .navbar-brand {
@@ -11503,4 +11537,112 @@ html {
 
 .copyright {
   background-color: var(--bs-black);
+}
+
+.page-about {
+  background-color: var(--bs-black);
+}
+
+.about-main-text {
+  color: #fff;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 122.5%;
+}
+
+.qr {
+  border-radius: 22px;
+}
+
+.about-secondary-text {
+  color: #fff;
+  text-align: left;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.container-title-list-about {
+  margin-top: 100px;
+}
+
+.page-solved {
+  padding: 3rem 0;
+  background-color: #ecdfce;
+}
+
+.page-howItsWorks {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+.solved-main-text {
+  color: #1d1d1b;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 122.5%;
+}
+
+.solved-secondary-text {
+  color: #000;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 122.5%;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.text-red {
+  color: #8d0800;
+}
+
+.bg-red {
+  background-color: #8d0800;
+}
+
+.title-list-solved {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.text-list-solved {
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  width: 400px;
+  margin-left: 40px;
+}
+
+.howItsWorks-main-text {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 122.5%;
+  margin-bottom: 30px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  padding: 10px;
+  background: #8d0800;
+  color: #fff;
+  text-align: center;
+  font: 32px Poppins;
+  margin-bottom: 40px;
 }
