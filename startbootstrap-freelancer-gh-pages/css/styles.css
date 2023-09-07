@@ -11511,21 +11511,7 @@ html {
 }
 
 .masthead-img {
-  height: 350px;
-}
-
-@media (min-width: 992px) {
-  .masthead {
-    padding-top: calc(2rem + 104px);
-    padding-bottom: 3rem;
-  }
-  .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
-  }
-  .masthead .masthead-subheading {
-    font-size: 1.5rem;
-  }
+  height: 430px;
 }
 
 .footer {
@@ -11585,6 +11571,22 @@ html {
   font-style: normal;
   font-weight: 600;
   line-height: 122.5%;
+}
+
+@media (max-width: 992px) {
+  .solved-main-text {
+    font-size: 44px;
+  }
+
+  .text-list-solved {
+    margin-left: 5px !important;
+    width: 300px !important;
+  }
+
+  .title-list-solved {
+    margin-left: 5px !important;
+    width: 300px !important;
+  }
 }
 
 .solved-secondary-text {
